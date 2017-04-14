@@ -1,5 +1,7 @@
 # FractalChains
 
+[![Build Status](https://travis-ci.org/fractalide/fractalchains.svg?branch=master)](https://travis-ci.org/fractalide/fractalchains)
+
 ## Project Description:
 
 An Ethereum Classic Client
