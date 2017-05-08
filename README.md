@@ -4,15 +4,16 @@
 
 ## Project Description:
 
-An Ethereum Classic Client
+An implementation of Silvio Micali's Algorand - The Efficient Public Ledger
 
 ## Problem:
 
-It would seem every Ethereum Client is for human beings.
+* Proof of work computation waste
+* Concerntration of power
 
 ## Solution:
 
-Make an Ethereum Client for machines.
+[Algorand](https://arxiv.org/pdf/1607.01341.pdf)
 
 ## Build Instructions
 Ensure you've installed [nix](https://nixos.org/nix).
