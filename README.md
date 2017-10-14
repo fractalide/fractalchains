@@ -9,7 +9,7 @@ An implementation of Silvio Micali's Algorand - The Efficient Public Ledger
 ## Problem:
 
 * Proof of work computation waste
-* Concerntration of power
+* Concentration of mining power
 
 ## Solution:
 
