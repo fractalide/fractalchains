@@ -1,5 +1,5 @@
 language: nix
-script: nix-build --argstr rs test -I nixpkgs=https://github.com/sjmackenzie/nixpkgs/archive/cceaef5be879602cd1a4928b4110e9cae889a5c1.tar.gz -I fractalide=https://github.com/fractalide/fractalide/archive/v20170415.tar.gz
+script: nix-build --argstr node test -I nixpkgs=https://github.com/nixos/nixpkgs/archive/66b63d2f5a442d642ac2b226d71b4f97bafce5c8.tar.gz -I fractalide=https://github.com/fractalide/fractalide/archive/master.tar.gz
 notifications:
   email:
     on_success: never
