@@ -21,13 +21,13 @@ Ensure you've installed [nix](https://nixos.org/nix).
 $ export NIX_PATH+=:fractalide=https://github.com/fractalide/fractalide/archive/v20170415.tar.gz
 $ git clone git://github.com/fractalide/fractalchains.git
 $ cd fractalchains
-$ nix-build --argstr rs test
+$ nix-build --argstr node test
 ```
 or
 ```
 $ git clone git://github.com/fractalide/fractalchains.git
 $ cd fractalchains
-$ nix-build --argstr rs test -I fractalide=/path/to/your/fractalide/clone
+$ nix-build --argstr node test -I fractalide=/path/to/your/fractalide/clone
 ```
 ## Guidelines
 

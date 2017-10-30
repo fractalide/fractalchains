@@ -3,7 +3,8 @@
 # Please refer to section 2.6 namely Evolution of Public Contracts
 # of the Collective Code Construction Contract in CONTRIBUTING.md
 let
-  callPackage = buffet.pkgs.lib.callPackageWith ( buffet.pkgs // buffet.support.rs // buffet.support // buffet );
+  callPackage = buffet.pkgs.lib.callPackageWith ( buffet.pkgs // buffet.support.node.rs // buffet.support // buffet );
+
 in
 {
   # RAW NODES
